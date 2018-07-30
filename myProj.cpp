@@ -15,6 +15,7 @@ void checkOddEven(int n)
 {
     if(n%2){
         cout<<n<<" is Odd";
+        cout << "Bye-Bye" ;
     }
     else
         cout<<n<<" is Even";
