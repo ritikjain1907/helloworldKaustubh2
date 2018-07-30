@@ -1,21 +1,24 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-void checkOddEven(int n);
+void checkOddEven(long n);
 
 int main()
 {
-    int n;
+    long n;
     cout<<"Enter any number : ";
     cin>>n;
     checkOddEven(n);
 }
 
-void checkOddEven(int n)
+void checkOddEven(long n)
 {
-    if(n%2){
+    if(n%2)
+    {
         cout<<n<<" is Odd";
     }
     else
+    {
         cout<<n<<" is Even";
+    }
 }
